@@ -1,29 +1,28 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int num, digit;
+    int num, temp, digit;
     int newnum = 0;
-    int n1, n2, n3, n4;
 
     cout << "Enter a 4-Digit Number : ";
     cin >> num;
-    digit = num;
+    temp = num;
 
-    n1 = digit % 10;
-    digit /= 10;
-    newnum = newnum * 10 + n1;
+    digit = temp % 10;
+    temp /= 10;
+    newnum = newnum * 10 + digit;
 
-    n2 = digit % 10;
-    digit /= 10;
-    newnum = newnum * 10 + n2;
+    digit = temp % 10;
+    temp /= 10;
+    newnum = newnum * 10 + digit;
 
-    n3 = digit % 10;
-    digit /= 10;
-    newnum = newnum * 10 + n3;
+    digit = temp % 10;
+    temp /= 10;
+    newnum = newnum * 10 + digit;
 
-    n4 = digit % 10;
-    digit /= 10;
-    newnum = newnum * 10 + n4;
+    digit = temp % 10;
+    temp /= 10;
+    newnum = newnum * 10 + digit;
 
 
     cout << "The Reverse of the digits of " << num << " is " << newnum;
