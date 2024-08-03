@@ -1,26 +1,28 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int num, digit;
+    int num, temp, digit;
     int sum = 0;
-    int n1, n2, n3, n4;
 
     cout << "Enter a 4-Digit Number : ";
     cin >> num;
-    digit = num;
+    temp = num;
 
-    n1 = digit % 10;
-    digit /= 10;
+    digit = temp % 10;
+    temp /= 10;
+    sum += digit;
 
-    n2 = digit % 10;
-    digit /= 10;
+    digit = temp % 10;
+    temp /= 10;
+    sum += digit;
 
-    n3 = digit % 10;
-    digit /= 10;
+    digit = temp % 10;
+    temp /= 10;
+    sum += digit;
 
-    n4 = digit % 10;
-    digit /= 10;
+    digit = temp % 10;
+    temp /= 10;
+    sum += digit;
 
-    sum = n1 + n2 + n3 + n4;
     cout << "The Sum of the digits of " << num << " is " << sum;
 }
