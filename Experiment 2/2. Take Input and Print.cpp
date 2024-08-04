@@ -6,8 +6,8 @@ int main() {
     char City[20];
     char Gender[6];
     int Height;
-    char insti[10];
-    char proff[20];
+    char Institute[10];
+    char Profession[20];
 
     cout << "Enter Your Name : ";
     cin >> Name;
@@ -20,15 +20,15 @@ int main() {
     cout << "Enter Your Height : ";
     cin >> Height;
     cout << "Enter Your Institute : ";
-    cin >> insti;
+    cin >> Institute;
     cout << "Enter Your Profession : ";
-    cin >> proff;
+    cin >> Profession;
 
     cout << "\nName : " << Name << endl;
     cout << "Age : " << Age << endl;
     cout << "Gender : " << Gender << endl;
     cout << "City : " << City << endl;
     cout << "Height : " << Height << endl;
-    cout << "Institute : " << insti << endl;
-    cout << "Profession : " << proff << endl;
+    cout << "Institute : " << Institute << endl;
+    cout << "Profession : " << Profession << endl;
 };
