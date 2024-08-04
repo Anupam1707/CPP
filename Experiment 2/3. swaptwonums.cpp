@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main() {
     int num1;
     int num2;
     cout << "Enter the value of Number 1 : ";
