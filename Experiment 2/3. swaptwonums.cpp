@@ -2,16 +2,15 @@
 using namespace std;
 int main()
 {
-    int a;
-    int b;
-    cout << "Enter the value of a : ";
-    cin >> a;
-    cout << "Enter the value of b : ";
-    cin >> b;
-    cout << "Before swap a = " << a << " b = " << b << endl;
-    a = a * b;
-    b = a / b;
-    a = a / b;
-    cout << "After swap a = " << a << " b = " << b << endl;
-    return 0;
+    int num1;
+    int num2;
+    cout << "Enter the value of Number 1 : ";
+    cin >> num1;
+    cout << "Enter the value of Number 2 : ";
+    cin >> num2;
+    cout << "Before swap Number 1 = " << num1 << ", Number 2  = " << num2 << endl;
+    num1 = num1 * num2;
+    num2 = num1 / num2;
+    num1 = num1 / num2;
+    cout << "After swap Number 1 = " << num1 << ", Number 2 = " << num2 << endl;
 }
