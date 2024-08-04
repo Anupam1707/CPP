@@ -6,7 +6,7 @@ int main() {
     char City[20] = "Indore";
     char Gender[6] = "Male";
     int Height = 170;
-    char Institue[10] = "NMIMS";
+    char Institute[10] = "NMIMS";
     char Profession[20] = "Programmer";
     cout << "Name : " << Name << endl;
     cout << "Age : " << Age << endl;
