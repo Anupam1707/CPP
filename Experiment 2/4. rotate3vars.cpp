@@ -16,5 +16,4 @@ int main() {
     num1 = num3 / (num1 * num2);
     num3 = num3 / (num1 * num2);
     cout << "After Swap Number 1 = " << num1 << " Number 2 = " << num2 << " Number 3 = " << num3 << endl;
-    return 0;
 };
