@@ -28,6 +28,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         sm += i;
     }
+    cout << sm;
 }
 
 #include <iostream>
@@ -38,6 +39,7 @@ int main() {
     cout << "Enter a number : ";
     cin >> n;
     for (int i = 1; i <= n; i++) {
-        sm *= i;
+        fact *= i;
     }
+    cout << fact;
 }
