@@ -30,7 +30,7 @@ int main() {
                 cout << "Error: Division by zero" << endl;
                 return 1;
             }
-            result = num1 / num1;
+            result = num1 / num2;
             break;
         default:
             cout << "Invalid operator" << endl;
