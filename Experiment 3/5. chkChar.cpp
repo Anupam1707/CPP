@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     char ch;
+    cout << "Enter a Character : ";
     cin >> ch;
     ch = tolower(ch);
 
