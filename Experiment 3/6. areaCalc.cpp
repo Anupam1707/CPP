@@ -16,25 +16,25 @@ int main() {
             cout << "Enter base and height of the triangle: ";
             cin >> base >> height;
             area = 0.5 * base * height;
-            cout << "Area of the triangle: " << area << " squnits" << endl;
+            cout << "Area of the triangle: " << area << " squnits\n";
             break;
         case 2:
             cout << "Enter length and width of the rectangle: ";
             cin >> length >> width;
             area = length * width;
-            cout << "Area of the rectangle: " << area << " squnits" << endl;
+            cout << "Area of the rectangle: " << area << " squnits\n";
             break;
         case 3:
             cout << "Enter radius of the circle: ";
             cin >> radius;
             area = pi * radius * radius;
-            cout << "Area of the circle: " << area << " squnits" << endl;
+            cout << "Area of the circle: " << area << " squnits\n";
             break;
         case 4:
             cout << "Enter radius of the sphere: ";
             cin >> radius;
             area = 4 * pi * radius * radius;
-            cout << "Area of the sphere: " << area << " squnits" << endl;
+            cout << "Area of the sphere: " << area << " squnits\n";
             break;
         default:
             cout << "Invalid choice!" << endl;
