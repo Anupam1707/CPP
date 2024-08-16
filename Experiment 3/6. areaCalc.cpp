@@ -1,12 +1,9 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
     int choice;
     const float pi = 3.14;
     double base, height, length, width, radius, area;
-
     cout << "Welcome to the Area Calculator!\n";
     cout << "1. Area of a Triangle\n";
     cout << "2. Area of a Rectangle\n";
@@ -14,7 +11,6 @@ int main() {
     cout << "4. Area of a Sphere\n";
     cout << "Enter your Choice : ";
     cin >> choice;
-
     switch (choice) {
         case 1:
             cout << "Enter base and height of the triangle: ";
