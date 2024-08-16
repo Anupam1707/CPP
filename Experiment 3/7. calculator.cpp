@@ -1,20 +1,14 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
     char op;
     double num1, num2, result;
-
     cout << "Enter an operator (+, -, *, /): ";
     cin >> op;
-
     cout << "Enter the First Number : ";
     cin >> num1;
     cout << "Enter the Second Number : ";
     cin >> num2;
-
-
     switch (op) {
         case '+':
             result = num1 + num2;
