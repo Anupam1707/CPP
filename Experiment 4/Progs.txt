@@ -1,0 +1,4 @@
+// 1. WAP to find sum of 1^2 + 2^2 + 3^2 +......... (while Loop)
+// 2. WAP to find sum of all nums between M and N such that N > M (for loop)
+// 3. WAP to accept num from user and print sum of digits (do-while loop)
+// 4. WAP to print first n fibonacci (for loop) 
