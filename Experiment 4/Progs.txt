@@ -4,3 +4,5 @@
 // 4. WAP to print first n fibonacci (for loop) 
 // 5. WAP to accept a num from user and display if the number os Atmstrong number or not
 // 6. WAP to check a numeber is palindrome or not
+// 7. WAP to check if a number is prime or not
+// 8. WAP to print the entire uppercase and lowercase using ____ loop
