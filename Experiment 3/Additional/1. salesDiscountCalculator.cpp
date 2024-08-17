@@ -14,6 +14,6 @@ int main() {
 
     amountAfterDiscount = salesAmount - discount;
 
-    cout << "Total discount: $" << discount << endl;
-    cout << "Amount to be paid after discount: $" << amountAfterDiscount << endl;
+    cout << "Total discount : " << discount << endl;
+    cout << "Amount to be paid after discount : " << amountAfterDiscount << endl;
 }
