@@ -5,4 +5,4 @@
 // 5. WAP to accept a num from user and display if the number os Atmstrong number or not
 // 6. WAP to check a numeber is palindrome or not
 // 7. WAP to check if a number is prime or not
-// 8. WAP to print the entire uppercase and lowercase using ____ loop
+// 8. WAP to print the entire uppercase and lowercase use continue A = 65, a = 97 
