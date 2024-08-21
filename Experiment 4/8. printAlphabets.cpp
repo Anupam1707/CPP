@@ -1,21 +1,18 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    int upperStart = 65;
-    int upperEnd = 90;
-    int lowerStart = 97;
-    int lowerEnd = 122;
+    int start = 65;
+    int end = 122;
 
-    cout << "Uppercase alphabets: ";
-    for (int i = upperStart; i <= upperEnd; ++i) {
-        cout << char(i) << ' ';
+    cout << "Uppercase and lowercase alphabets: ";
+    for (int i = start; i <= end; ++i) {
+        if (i >= 91 && i <= 96) {
+            continue;
+        }
+        if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122)) {
+            cout << char(i) << ' ';
+        }
     }
-    cout << endl;
-
-    cout << "Lowercase alphabets: ";
-    for (int i = lowerStart; i <= lowerEnd; ++i) {
-        cout << char(i) << ' ';
-    }
-    cout << endl;
 }
