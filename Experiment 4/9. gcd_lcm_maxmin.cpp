@@ -2,28 +2,24 @@
 
 using namespace std;
 
-int gcd(int a, int b) {
-    while (b != 0) {
-        int temp = b;
-        b = a % b;
-        a = temp;
-    }
-    return a;
-}
-
 int main() {
-    int num1, num2;
+    int num1, num2, temp1, temp2, gcd, lcm;
 
-    cout << "Enter two numbers: ";
-    cin >> num1 >> num2;
+    cout << "Enter First Number : ";
+    cin >> num1;
+    cout << "Enter Second Number : ";
+    cin >> num2;
 
-    int GCD = gcd(num1, num2);
-    int mx = (num1 > num2) ? num1 : num2;
-    int mn = (num1 < num2) ? num1 : num2;
-    int lcm = (num1 * num2) / GCD;
+    temp1 = num1;
+    temp2 = num2;
 
-    cout << "GCD of " << num1 << " and " << num2 << " is: " << GCD << endl;
-    cout << "Maximum of " << num1 << " and " << num2 << " is: " << mx << endl;
-    cout << "Minimum of " << num1 << " and " << num2 << " is: " << mn << endl;
+    while (temp2 != 0) {
+        gcd = temp2;
+        temp2 = temp1 % temp2;
+        temp1 = gcd;
+    }
+    lcm = (num1 * num2) / gcd;
+
+    cout << "GCD of " << num1 << " and " << num2 << " is: " << gcd << endl;
     cout << "LCM of " << num1 << " and " << num2 << " is: " << lcm << endl;
 }
