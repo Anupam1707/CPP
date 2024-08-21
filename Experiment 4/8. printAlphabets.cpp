@@ -11,8 +11,6 @@ int main() {
         if (i >= 91 && i <= 96) {
             continue;
         }
-        if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122)) {
-            cout << char(i) << ' ';
-        }
+        cout << char(i) << ' ';
     }
 }
