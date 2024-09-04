@@ -1,0 +1,6 @@
+1. mul5
+2. even odd
+3. intersection
+4. copyarr
+5. exchange 1st and last in 1d
+6. sum of elements of 2d of order MxN
