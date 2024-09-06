@@ -10,22 +10,20 @@ int main() {
     for (int i = n1; i <= n2; i++) {
         sum = 0;
         count = 0;
-        temp = n1;
+        temp = i;
         while (temp != 0) {
             temp /= 10;
             count++;
         }
-        temp = num;
+        temp = i;
         do {
             digit = temp % 10;
             sum += pow(digit, count);
             temp /= 10;
         } while (temp != 0);
     
-        if (sum == num) {
-            cout << num << " is an Armstrong Number";
-        } else {
-            cout << num << " is not an Armstrong Number";
+        if (sum == i) {
+            cout << i << " is an Armstrong Number" << endl;
         }
     }
 }
