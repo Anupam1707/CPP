@@ -1,5 +1,0 @@
-WAP to print tables 1 to 10
-WAP to generate all combinations of 1,2,3 using for
-WAP for Armstrong Numbers from N1 to N2
-WAP for Prime Numbers from N1 to N2
-WAP to calc series (1) + (1+2) + (1+2+3) +
