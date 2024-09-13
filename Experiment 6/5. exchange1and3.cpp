@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int arr[4] = {1,2,3,4};
-    int temp;
+    int arr[4] = {1,2,3,4}, temp;
     cout <<"Original Array : ";
     for (int i = 0; i <4; i++) {
         cout << arr[i] << " ";
