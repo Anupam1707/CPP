@@ -11,16 +11,12 @@ int main() {
     }
     cout << "Odd numbers: ";
     for (int i = 0; i < n; i++) {
-        if (arr[i] % 2 != 0) {
-            cout << arr[i] << " ";
-        }
+        if (arr[i] % 2 != 0) cout << arr[i] << " ";
     }
     cout << endl;
     cout << "Even numbers: ";
     for (int i = 0; i < n; i++) {
-        if (arr[i] % 2 == 0) {
-            cout << arr[i] << " ";
-        }
+        if (arr[i] % 2 == 0) cout << arr[i] << " ";
     }
     cout << endl;
 }
