@@ -17,7 +17,7 @@ int main() {
     }
 
     for (int i = 0; i < n; i++) {
-        arr2[i] = arr1[n - i - 1];
+        arr2[i] = arr1[n - i];
     }
 
     cout << "Original array: ";
@@ -26,7 +26,7 @@ int main() {
     }
     cout << endl;
 
-    cout << "Reversed array: ";
+    cout << "Copied array: ";
     for (int i = 0; i < n; i++) {
         cout << arr2[i] << " ";
     }
