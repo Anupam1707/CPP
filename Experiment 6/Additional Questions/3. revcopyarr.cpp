@@ -11,7 +11,7 @@ int main() {
         cin >> arr1[i];
     }
     for (int i = 0; i < n; i++) {
-        arr2[i] = arr1[n - i];
+        arr2[i] = arr1[n - i - 1];
     }
     cout << endl;
     cout << "Copied array: ";
