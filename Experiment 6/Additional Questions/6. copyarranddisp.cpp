@@ -19,8 +19,6 @@ int main() {
     }
     cout << endl;
     cout << "Copied array: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr2[i] << " ";
-    }
+    for (int i = 0; i < n; i++) cout << arr2[i] << " ";
     cout << endl;
 }
