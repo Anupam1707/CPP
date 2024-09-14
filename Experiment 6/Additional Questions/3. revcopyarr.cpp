@@ -13,10 +13,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         arr2[i] = arr1[n - i];
     }
-    cout << "Original array: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr1[i] << " ";
-    }
     cout << endl;
     cout << "Copied array: ";
     for (int i = 0; i < n; i++) {
