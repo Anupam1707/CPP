@@ -1,1 +1,4 @@
-
+1. Check Leap Year using function
+2. Power Function for (x, y) where result = x^y
+3. Largest of 3 flaot nums using function
+4. Factorial Using functions
