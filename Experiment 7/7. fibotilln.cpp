@@ -10,7 +10,7 @@ int fibonacci(int n) {
     }
 }
 void print_fibonacci_series(int n) {
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 0; i < n; ++i) {
         cout << fibonacci(i) << " ";
     }
     cout << endl;
