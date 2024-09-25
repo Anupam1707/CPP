@@ -74,6 +74,4 @@ int main() {
 
     string_reverse(str1);
     cout << "Reversed string: " << str1 << endl;
-
-    return 0;
 }
