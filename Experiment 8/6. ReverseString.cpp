@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 
 void reverseString(char* str, int size) {
     char* start = str;
