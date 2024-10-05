@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
-
 void reverseString(char* str, int size) {
     char* start = str;
     char* end = str + size;
-
     while (start < end) {
         char temp = *start;
         *start = *end;
