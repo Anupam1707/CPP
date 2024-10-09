@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 
 class Employee {
@@ -10,7 +9,8 @@ public:
 
 int main() {
     Employee emp;
-    strcpy(emp.name, "Scott");
+    cout << "Enter the Name : ";
+    cin.getline(emp.name, 20);
     emp.salary = 20000.67;
 
     cout << "Employee Name: " << emp.name << endl;
