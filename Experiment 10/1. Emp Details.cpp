@@ -1,33 +1,51 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 class Employee {
 private:
     int Emp_id;
-    string Emp_name;
+    char Emp_name[20];
     float Emp_sal;
 
 public:
-    Employee(int id, string name, float salary) {
+    Employee() {}
+
+    Employee(int id, const char* name, float salary) {
         Emp_id = id;
-        Emp_name = name;
+        strcpy(Emp_name, name);
         Emp_sal = salary;
     }
 
     void display() {
-        cout << "Employee ID: " << Emp_id << endl;
+        cout << "\nEmployee ID: " << Emp_id << endl;
         cout << "Employee Name: " << Emp_name << endl;
         cout << "Employee Salary: " << Emp_sal << endl;
     }
 };
 
 int main() {
-    Employee emp1(101, "John", 50000);
-    Employee emp2(102, "Alice", 60000);
+    int Emp_id;
+    char Emp_name[20];
+    float Emp_sal;
 
-    cout << "Employee 1 details:" << endl;
-    emp1.display();
+    Employee emp[2];
 
-    cout << "\nEmployee 2 details:" << endl;
-    emp2.display();
+    for (int i = 0; i < 2; i++) {
+        cout << "Enter Employee ID: ";
+        cin >> Emp_id;
+        cout << "Enter Employee Name: ";
+        cin >> Emp_name;
+        cout << "Enter Employee Salary: ";
+        cin >> Emp_sal;
+
+        emp[i] = Employee(Emp_id, Emp_name, Emp_sal);
+    }
+
+    for (int i = 0; i < 2; i++) {
+        cout << "\nDetails of Employee " << i + 1 << ":";
+        emp[i].display();
+    }
+
+    return 0;
 }

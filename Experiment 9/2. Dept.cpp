@@ -1,13 +1,11 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 class Employee {
 private:
-    string name;
+    char name[20];
     float salary;
-    string department;
-
+    char department[20];
 public:
     void getData() {
         cout << "Enter name: ";
@@ -17,14 +15,12 @@ public:
         cout << "Enter department: ";
         cin >> department;
     }
-
     void showData() {
         cout << "Name: " << name << endl;
         cout << "Salary: " << salary << endl;
         cout << "Department: " << department << endl;
     }
 };
-
 int main() {
     Employee emp;
     emp.getData();

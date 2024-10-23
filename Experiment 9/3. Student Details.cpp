@@ -3,7 +3,7 @@ using namespace std;
 
 class Student {
 private:
-    string name;
+    char name[10];
     int rollno;
     float marks[3];
     float score;
