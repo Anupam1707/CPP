@@ -2,8 +2,8 @@
 using namespace std;
 
 class Complex {
-private:
-    float real, imaginary;
+    float real;
+    float imaginary;
 
 public:
     Complex() {
@@ -16,10 +16,10 @@ public:
         imaginary = i;
     }
 
-    Complex operator + (Complex const &obj) {
+    Complex operator+(Complex c) {
         Complex temp;
-        temp.real = real + obj.real;
-        temp.imaginary = imaginary + obj.imaginary;
+        temp.real = real + c.real;
+        temp.imaginary = imaginary + c.imaginary;
         return temp;
     }
 
@@ -29,15 +29,9 @@ public:
 };
 
 int main() {
-    Complex c1(5.5, 4.5), c2(3.2, 2.8);
-
-    cout << "Complex number 1: ";
-    c1.show();
-
-    cout << "Complex number 2: ";
-    c2.show();
-
-    Complex c3 = c1 + c2;
-    cout << "Sum of complex numbers: ";
-    c3.show();
+    Complex c1(2.3, 4.5);
+    Complex c2(3.4, 5.6);
+    Complex result = c1 + c2;
+    result.show();
+    return 0;
 }

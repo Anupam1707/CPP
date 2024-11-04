@@ -7,7 +7,6 @@ private:
     int Emp_id;
     char Emp_name[20];
     float Emp_sal;
-
 public:
     Employee() {}
 
