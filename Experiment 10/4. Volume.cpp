@@ -2,7 +2,7 @@
 using namespace std;
 
 class Rectangle {
-protected:
+public:
     float length, width;
 
 public:

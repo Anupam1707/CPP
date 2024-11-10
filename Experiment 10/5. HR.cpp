@@ -2,9 +2,9 @@
 using namespace std;
 
 class Employee {
-protected:
+
     int id;
-    string name;
+    char name[20];
 
 public:
     void getData() {
@@ -21,7 +21,7 @@ public:
 };
 
 class Manager : public Employee {
-protected:
+
     float salary;
 
 public:

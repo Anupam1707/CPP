@@ -10,7 +10,6 @@ public:
         real = 0;
         imaginary = 0;
     }
-
     Complex(float r, float i) {
         real = r;
         imaginary = i;
